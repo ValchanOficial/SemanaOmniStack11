@@ -5,15 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "Valéria Padilha de Vargas",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.9.6"
+    "express-validator": "^6.4.0",
+    "knex": "^0.20.13",
+    "mongoose": "^5.9.6",
+    "sqlite3": "^4.1.1"
   }
 }

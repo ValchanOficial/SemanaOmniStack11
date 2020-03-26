@@ -1,5 +1,5 @@
-const app = require('./src/config/custom-express');
-const config = require('./src/config/config');
+const app = require('./config/custom-express');
+const config = require('./config/config');
 const port = config.PORT;
 
 app.listen(port, () => {
