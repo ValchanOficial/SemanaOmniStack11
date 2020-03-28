@@ -22,7 +22,7 @@ class OngController {
         const id = crypto.randomBytes(4).toString('HEX');
         await db(ONG_TABLE)
             .insert({id, name, email, whatsapp, city, uf});
-        return res.status(201).json({ message: `ONG created! - ID: ${id}` });
+        return res.status(201).json({ message: 'ONG created!', id: id });
     }
 
     static updateOng = async (req, res) => {

@@ -31,7 +31,7 @@ class IncidentController {
         const ong_id = req.headers.authorization;
         const [id] = await db(INCIDENT_TABLE)
             .insert({title, description, value, ong_id});
-        return res.status(201).json({ message: `Incident created! - ID: ${id}` });
+        return res.status(201).json({ message: 'Incident created!', id: id });
     }
 
     static updateIncident = async (req, res) => {
