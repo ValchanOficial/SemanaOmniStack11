@@ -7,6 +7,7 @@
 - - <a href="https://reactnative.dev/" target="_blank" rel="noopener noreferrer">React Native</a>
 - - <a href="https://feathericons.com/" target="_blank" rel="noopener noreferrer">Feather Icons</a>
 - - <a href="https://github.com/axios/axios" target="_blank" rel="noopener noreferrer">Axios</a>
+- - <a href="https://expo.io/" target="_blank" rel="noopener noreferrer">Expo</a>
 
 - Instale as dependências em todas as pastas
 ```javascript
